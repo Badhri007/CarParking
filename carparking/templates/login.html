@@ -1,7 +1,9 @@
 {% extends "navbar.html" %}
+{% block content %}
 <!DOCTYPE html>
 <html>
 <head>
+	
 	<title>Login Form</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,6 +65,8 @@
 <body>
 	<form action="/login" method="post">
 		<div class="container">
+			<h3>Login Form</h3>
+			<br>
 			<label for="username"><b>Username</b></label>
 			<input type="text" placeholder="Enter Username" name="username" required>
 
